@@ -27,12 +27,15 @@ request.onload = function() {
             Name.textContent = 'Name:';
             Name.style.color = 'darkgreen';
             Name.classList.add('w3-container',);
+            Name.style.backgroundColor = 'lightblue';
             
             var email = document.createElement('h2');
             email.textContent = 'Email:';
             email.style.color = 'gold';
             email.style.textAlign = 'center';
             email.classList.add('w3-container',);
+            
+            
 
             var emailName = document.createElement('h2');
             emailName.textContent = users.email;
@@ -44,6 +47,7 @@ request.onload = function() {
             city.style.color = 'blue';
             city.style.textAlign = 'right';
             city.classList.add('w3-container',);
+            city.style.backgroundColor = 'lightgrey';
             
             var cityName = document.createElement('h3');
             cityName.textContent = users.address.city;
